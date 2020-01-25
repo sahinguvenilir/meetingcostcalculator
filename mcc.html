@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Real-time cost monitoring for your meetings</title>
+<link rel="stylesheet" type="text/css" href="mcc.css">
+<script type="text/javascript" src="mcc.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    </head>  
+    <body>
+    <header><h1 style="color:teal">Real-time cost monitoring for your meetings</h1></header>
+   <table>
+   <tr>
+   <td id="attendee"># Attendees</td>
+   <td id="dailyrate">£ Avg Daily Rate</td>
+   </tr>
+   
+   <tr>
+   <td><input id="#attendee" placeholder="10" type="number" min="1" oninput="validity.valid||(value='');"></td>
+  
+   <td><input id="#dailyrate" placeholder="500" type="number" min="1" oninput="validity.valid||(value='');"></td>
+   </tr>
+   
+   
+   
+   </table>
+
+    <div> <input type="button" id="button" value="Start!" onClick = "toggle (); calculate ()"> </div>    
+    
+    <div id="cost"></div>
+    
+    <div id="avatar" style="display:none"><img src="img/kermit.jpg" width="200"></div>
+    
+    
+    </body>
+    
+    </html>

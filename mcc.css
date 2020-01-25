@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body { background-color: #eaedec;
+}
+
+#cost {
+	
+	font-size: xx-large;
+	color: red;
+	
+	
+}
+
+input[type=button]
+{
+	font-size: x-large;
+	margin-top: 2%;
+	color: white;
+	width: 150px;
+	border:none;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: #ff9300;
+	background-color: #ff9300;
+}
+
+td#attendee {
+	
+	font-family: sans-serif;
+	font-size: large; }
+	
+td#dailyrate {
+	
+	font-family: sans-serif;
+	font-size: large; }
+	
+input#\#attendee {
+	
+	font-family: sans-serif;
+	font-size: large; }
+	
+input#\#dailyrate {
+	
+	font-family: sans-serif;
+	font-size: large; }
